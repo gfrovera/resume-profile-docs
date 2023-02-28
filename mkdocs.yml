@@ -2,7 +2,9 @@ site_name: My Site
 site_author: Garrett Rovera
 
 nav:
-  - Home: index.md
+    - Home: index.md
+    - Projects:
+        - DadBot: dadbot/overview.md
 
 theme:
   name: material
@@ -18,3 +20,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+plugins:
+    - search
+
+
+markdown_extensions:
+    - pymdownx.tabbed
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
