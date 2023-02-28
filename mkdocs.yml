@@ -3,6 +3,8 @@ site_author: Garrett Rovera
 
 nav:
   - Home: index.md
+  - Projects:
+    - DadBot: dadbot/overview.md
 
 theme:
   name: material
